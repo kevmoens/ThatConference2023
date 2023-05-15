@@ -28,3 +28,22 @@ So pack your virtual camping gear and join us for a fun and tasty journey throug
 - dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
 - livingdoc test-assembly RequestTimeOff.Specflow.dll -t TestExecution.json
   - Execute inside of .\Project.Specflow\bin\Debug\net7.0
+
+## Continous Delivery vs Test Coverage
+
+Imagine these two different examples.
+It is 1980s and you are about to deliver Super Mario Bros for Nintendo Entertainment System.  
+Compare that to today with apps like Netflix.  
+
+Imagine finding an issue that stops the app from continuing.
+
+What is the biggest difference?  
+
+The NES game system doesn't connect to the internet.  You need to deliver the game / app with as little issues as possible.  In this case writing tests for as much as you can would be very important.  Any issue might result in your game not selling.
+
+Netflix is known to regularly push 10 updates per week through their CI/CD pipeline.
+
+The Super Mario Bros example might be an extreme example, but it isn't far off from some software that is still used today.  The company I work for sells ERP software and over 90% of clients are modified and over 80% are hosted on premise of the client.  With this scenario there isn't a simple method to get all clients up to date and run Continous Delivery.  
+(Create Image with spectrum showing number of tests)
+
+Note the more tests you have you can affect future development speed.
