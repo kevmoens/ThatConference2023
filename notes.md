@@ -14,6 +14,28 @@ We'll also share some best practices for organizing and maintaining your Specflo
 
 So pack your virtual camping gear and join us for a fun and tasty journey through test automation with Specflow as your guide. We promise it'll be a trip to remember!
 
+## Links 
+
+[Wiki](https://en.wikipedia.org/wiki/Behavior-driven_development)
+
+## TODO 
+  
+  Review Nich Chapsas Unit Testing from zero to hero.
+  - Naming of unit test method 
+  Specflow Examples, Tags
+
+## Collaboration with your team
+
+3 Amigos
+Dave Farley - Continous Delivery YouTube Channel
+  Dan North
+  Liz Keogh
+  Gojko Adzic
+Goal - Better Software Faster
+Software Development is a team sport
+World Class Habits
+  Avoid bureaucracy of very detailed specifications and needing a review by a senior developer, just work on making everyone more trustable.  This happens with World Class Habits
+
 ## SpecFlow Install
 
 - In Visual Studio Open
@@ -21,6 +43,13 @@ So pack your virtual camping gear and join us for a fun and tasty journey throug
     - Manage Extensions
       - Online - Search - Specflow
       - Install Specflow for Visual Studio "version"
+
+## Parts of Specflow
+
+  - Feature
+  - Scenario
+  - Parameters
+  - Tables
 
 ## LivingDoc Install
 
