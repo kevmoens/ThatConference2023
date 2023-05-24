@@ -36,6 +36,57 @@ Software Development is a team sport
 World Class Habits
   Avoid bureaucracy of very detailed specifications and needing a review by a senior developer, just work on making everyone more trustable.  This happens with World Class Habits
 
+## User Stories
+
+### What are user stories?
+
+User stories are short, simple descriptions of a solution that your team has come up with, told from the perspective of the person who is playing out the interaction. They are part of a larger epic that describes the actual problem to be solved and why you’re solving it.
+
+The operative word here is user, meaning a user story puts the focus on the user, not the product.
+
+A user story usually focuses on three areas:
+
+- As a (who)
+- I want to (what)
+- So that (why)
+
+This is all usually followed by acceptance criteria, which define how you know if the interaction is successful.
+
+## Acceptance Criteria
+
+### Enter Gherkin
+
+- Given
+- When
+- Then
+
+Gherkins are a way to add to user stories and give a full scenario that will help developers and testers understand both the outcome and the output of a particular user interaction.
+
+- Background - Shared Given portion of a feature
+- Scenario — the behavior you’re going to describe
+- Given — the beginning state of the scenario
+- When — a specific action that the user takes
+- Then — a testable outcome, usually caused by the action in When
+- And — this continues any of the other three operations if necessary
+
+Taking the password scenario previously described:
+
+#### Example
+Scenario: When setting a password,
+- Given that I am an account admin,
+- When I enter a password in the password field,
+- Then I should be warned of the password requirements,
+- And I should be allowed to make corrections right away,
+- Then that I can create a secure account.
+
+We now have a full picture of who is carrying out the specific action, and what the requirements are for the acceptance criteria, and the team knows what potential frustrations there might be so that they can ensure that the process flows more smoothly.
+
+Generally, the product manager or product owner is responsible for writing out the Gherkin stories, thus creating better communication between the rest of the team and making sure that everyone is focusing on outcomes, not just outputs.
+
+### Watch out for:
+
+It always feel great to have every detail / question answered.  Caution in going overboard.  If you separate the thinking from doing you are loosing the value of different view points.  
+
 ## SpecFlow Install
 
 - In Visual Studio Open
@@ -47,9 +98,12 @@ World Class Habits
 ## Parts of Specflow
 
   - Feature
+  - Background
   - Scenario
   - Parameters
+  - Examples (Outline)
   - Tables
+  - Tags
 
 ## LivingDoc Install
 
@@ -76,3 +130,7 @@ The Super Mario Bros example might be an extreme example, but it isn't far off f
 (Create Image with spectrum showing number of tests)
 
 Note the more tests you have you can affect future development speed.
+
+### Limiting Tests
+
+https://youtu.be/Xc5gAyzQRzI
