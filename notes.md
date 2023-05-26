@@ -101,9 +101,13 @@ It always feel great to have every detail / question answered.  Caution in going
   - Background
   - Scenario
   - Parameters
-  - Examples (Outline)
+  - Examples (Outline) - TODO
   - Tables
   - Tags
+    - Unit test
+    - Functional test
+    - Integration test
+    - Acceptance test
 
 ## LivingDoc Install
 
@@ -134,3 +138,11 @@ Note the more tests you have you can affect future development speed.
 ### Limiting Tests
 
 https://youtu.be/Xc5gAyzQRzI
+
+### Integrations
+
+- SpecFlow.ExternalData - json / Excel for example
+- SpecFlow.Runner - how to run command line
+- SpecFlow.Actions.Selenium
+- SpecFlow.Actions.Playwright
+- Specflow.Actions.WindowsAppDriver - desktop apps
