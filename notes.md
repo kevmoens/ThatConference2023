@@ -134,3 +134,10 @@ Note the more tests you have you can affect future development speed.
 ### Limiting Tests
 
 https://youtu.be/Xc5gAyzQRzI
+
+
+## Presentation Ideas
+Stories relating to my daughters
+
+Everyday development things (Examples)
+  - Being deep into issue, forget the 1000 foot view
