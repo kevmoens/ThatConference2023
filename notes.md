@@ -104,6 +104,10 @@ It always feel great to have every detail / question answered.  Caution in going
   - Examples (Outline)
   - Tables
   - Tags
+    - Unit test
+    - Functional test
+    - Integration test
+    - Acceptance test
 
 ## LivingDoc Install
 
