@@ -61,6 +61,7 @@ This is all usually followed by acceptance criteria, which define how you know i
 - Then
 
 Gherkins are a way to add to user stories and give a full scenario that will help developers and testers understand both the outcome and the output of a particular user interaction.
+Anyone can write and read Gherkin tests specifications.
 
 - Background - Shared Given portion of a feature
 - Scenario — the behavior you’re going to describe
